@@ -1,0 +1,26 @@
+language:
+  conversation_default: Spanish
+  artifacts_default: English
+
+project:
+  name: hermes-fitness-coach
+  timezone: Europe/Berlin
+  data_dir: data
+
+coaching:
+  primary_goal: reduce_body_fat_percentage
+  fat_loss_style: moderate
+  training_structure: adaptive_3_plus_1
+  max_session_minutes_total: 60
+  shoulder_monitoring: true
+
+adjustment_thresholds:
+  good_adherence_pct: 80
+  low_adherence_pct: 70
+  slow_loss_pct_per_week: 0.2
+  target_loss_pct_per_week_min: 0.4
+  target_loss_pct_per_week_max: 0.7
+  fast_loss_pct_per_week: 1.0
+  calorie_adjustment_kcal_min: 150
+  calorie_adjustment_kcal_max: 200
+  steps_increment: 1000

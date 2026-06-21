@@ -1,0 +1,17 @@
+nutrition_source_order:
+  - user_label_or_barcode
+  - open_food_facts
+  - german_bls_local_if_available
+  - usda_fooddata_central_fallback
+  - manual_estimate
+
+exercise_source_order:
+  - active_plan
+  - local_exercise_map
+  - wger_api_if_available
+  - coach_manual_substitution
+
+confidence_labels:
+  high: exact label, barcode match, or verified source
+  medium: generic match or close product match
+  low: restaurant, homemade without weights, rough estimate
