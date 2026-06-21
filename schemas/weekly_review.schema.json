@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WeeklyReview",
+  "type": "object",
+  "required": [
+    "week_start",
+    "week_end",
+    "diagnosis",
+    "decisions"
+  ],
+  "properties": {
+    "week_start": {
+      "type": "string"
+    },
+    "week_end": {
+      "type": "string"
+    },
+    "diagnosis": {
+      "type": "string"
+    },
+    "decisions": {
+      "type": "array"
+    },
+    "metrics": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TrainingSession",
+  "type": "object",
+  "required": [
+    "date",
+    "completed"
+  ],
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "planned_session_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "completed": {
+      "enum": [
+        "completed",
+        "partial",
+        "skipped",
+        "planned"
+      ]
+    },
+    "duration_min": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "exercises": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "conditioning": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "energy_1_5": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 1,
+      "maximum": 5
+    },
+    "difficulty": {
+      "enum": [
+        "too_easy",
+        "right",
+        "too_hard",
+        "unknown",
+        null
+      ]
+    },
+    "pain": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

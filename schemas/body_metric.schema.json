@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BodyMetric",
+  "type": "object",
+  "required": [
+    "date"
+  ],
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "weight_kg": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "waist_navel_cm": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "sleep_hours": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "sleep_quality_0_10": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "steps": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "resting_hr": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

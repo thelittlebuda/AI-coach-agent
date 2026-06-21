@@ -1,0 +1,13 @@
+{
+  "date_effective": "2026-06-22",
+  "calories_kcal_per_day_min": 2400,
+  "calories_kcal_per_day_max": 2600,
+  "protein_g_per_day_min": 180,
+  "protein_g_per_day_max": 210,
+  "fiber_g_per_day_min": 25,
+  "fiber_g_per_day_max": 40,
+  "rate_of_loss_target_pct_bodyweight_per_week_min": 0.4,
+  "rate_of_loss_target_pct_bodyweight_per_week_max": 0.7,
+  "steps_initial_target": 7000,
+  "source": "build_plan_v3_seed"
+}

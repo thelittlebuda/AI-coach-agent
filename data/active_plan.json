@@ -1,0 +1,159 @@
+{
+  "plan_id": "alvaro-16w-cut-recomp-w01",
+  "version": "1.0.0",
+  "start_date": "2026-06-22",
+  "phase": "moderate_cut_with_strength_focused_recomposition_behavior",
+  "structure": "3_anchored_sessions_plus_optional_4th",
+  "time_cap_min": 60,
+  "sessions": [
+    {
+      "session_id": "W01D1",
+      "priority": 1,
+      "name": "Lower Strength + Pull",
+      "recommended_day": "Monday",
+      "goal": "Squat strength, posterior chain, vertical pull, short conditioning",
+      "exercises": [
+        {
+          "name": "Back Squat",
+          "sets": 4,
+          "reps": "4-6",
+          "intensity": "RPE 7-8",
+          "rest_sec": 180
+        },
+        {
+          "name": "Romanian Deadlift",
+          "sets": 3,
+          "reps": "6-8",
+          "intensity": "RPE 7",
+          "rest_sec": 120
+        },
+        {
+          "name": "Pull-up or Lat Pulldown",
+          "sets": 4,
+          "reps": "6-10",
+          "intensity": "1-2 RIR",
+          "rest_sec": 120
+        },
+        {
+          "name": "Split Squat or Leg Press",
+          "sets": 2,
+          "reps": "8-12",
+          "intensity": "1-3 RIR",
+          "rest_sec": 90
+        }
+      ],
+      "conditioning": {
+        "type": "bike_or_row_intervals",
+        "duration_min": 8,
+        "intensity": "hard_not_max"
+      }
+    },
+    {
+      "session_id": "W01D2",
+      "priority": 2,
+      "name": "Upper Strength + Posterior Chain",
+      "recommended_day": "Thursday",
+      "goal": "Bench strength, controlled press, rowing, delts/scapula",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": 4,
+          "reps": "4-6",
+          "intensity": "RPE 7-8",
+          "rest_sec": 180
+        },
+        {
+          "name": "Strict Press or Neutral-Grip DB Press",
+          "sets": 3,
+          "reps": "5-8",
+          "intensity": "RPE 7",
+          "rest_sec": 120
+        },
+        {
+          "name": "Chest-Supported Row",
+          "sets": 4,
+          "reps": "6-10",
+          "intensity": "1-2 RIR",
+          "rest_sec": 120
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": 3,
+          "reps": "8-12",
+          "intensity": "1-3 RIR",
+          "rest_sec": 90
+        },
+        {
+          "name": "Lateral Raise + Face Pull",
+          "sets": 2,
+          "reps": "12-20",
+          "intensity": "2 RIR",
+          "rest_sec": 60
+        }
+      ],
+      "conditioning": null
+    },
+    {
+      "session_id": "W01D3",
+      "priority": 3,
+      "name": "Full Body Hypertrophy + Controlled Metcon",
+      "recommended_day": "Saturday",
+      "goal": "Full-body stimulus with controlled fatigue",
+      "exercises": [
+        {
+          "name": "Deadlift Variation or Front Squat",
+          "sets": 3,
+          "reps": "3-5",
+          "intensity": "RPE 7-8",
+          "rest_sec": 180
+        },
+        {
+          "name": "Incline DB Press or Machine Press",
+          "sets": 3,
+          "reps": "8-12",
+          "intensity": "1-3 RIR",
+          "rest_sec": 90
+        },
+        {
+          "name": "Seated Cable Row",
+          "sets": 3,
+          "reps": "8-12",
+          "intensity": "1-2 RIR",
+          "rest_sec": 90
+        },
+        {
+          "name": "Leg Curl or Leg Extension",
+          "sets": 2,
+          "reps": "10-15",
+          "intensity": "1-3 RIR",
+          "rest_sec": 75
+        },
+        {
+          "name": "Core",
+          "sets": 2,
+          "reps": "8-15",
+          "intensity": "controlled",
+          "rest_sec": 60
+        }
+      ],
+      "conditioning": {
+        "type": "controlled_metcon",
+        "duration_min": 10,
+        "intensity": "hard_but_technical"
+      }
+    },
+    {
+      "session_id": "W01D4",
+      "priority": 4,
+      "name": "Optional Capacity / Weak Points",
+      "recommended_day": "Sunday",
+      "goal": "Recovery-biased capacity or weak points",
+      "optional": true,
+      "options": [
+        "Zone 2 bike/row 25-35 min",
+        "Arms/delts/core 30-40 min",
+        "Mobility + walk only if recovery is poor"
+      ]
+    }
+  ]
+}

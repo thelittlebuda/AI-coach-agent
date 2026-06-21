@@ -1,0 +1,61 @@
+user:
+  name: Álvaro
+  sex: male
+  age: 32
+  height_cm: 190
+  current_weight_kg: 100
+  recent_usual_weight_kg: 105
+  estimated_body_fat_pct: 27
+  waist_navel_cm: 102
+primary_goal: reduce_body_fat_percentage
+secondary_goals:
+  - preserve_or_gain_muscle
+  - improve_strength
+  - improve_flexibility
+  - improve_cardio
+  - improve_adherence
+preferred_fat_loss_style: moderate
+training_availability:
+  days_per_week: 3-4
+  preferred_days: [Monday, Tuesday, Thursday, Friday, Saturday, Sunday]
+  session_duration_total_min: 45-60
+  usual_time: after_19_00
+  location: fully_equipped_gym
+training_background:
+  crossfit_years: 4
+  strength_hiit_years: 4
+  recent_irregular_training_months: 6
+  skill_level: intermediate_to_advanced
+approx_lifts:
+  squat_kg: 130
+  deadlift_kg: 200
+  bench_press_kg: 90
+  strict_press_kg: 60
+  weighted_pullup_extra_kg: 9
+health:
+  current_injuries: none
+  monitoring_points:
+    - right_shoulder_previous_bursitis
+  shoulder_current_status: no_relevant_pain_in_major_pressing_or_crossfit_movements
+activity_recovery:
+  daily_steps: 5000-6000
+  cardio: cycling_to_work_15_min_each_way_when_applicable
+  work: sedentary
+  sleep_hours: 5-8
+  sleep_quality_0_10: 6.8
+  stress_0_10: 5
+nutrition:
+  current_intake_kcal_estimate: 1400-2200_variable
+  current_protein_g_estimate: 90
+  meals_per_day: 2-3
+  meals_out_per_week: 4
+  alcohol: beer_1_to_2_days_per_week_1_to_3_liters
+  restrictions: none
+  willing_to_track_calories_and_protein_weeks: 2-4
+tracking:
+  has_scale: true
+  weigh_in_frequency: daily_or_most_days
+  waist_frequency: weekly
+  progress_photos_frequency_weeks: 2-4
+  track_loads_reps: true
+  expected_adherence_0_10: 7

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FitnessProfile",
+  "type": "object",
+  "required": [
+    "user",
+    "primary_goal",
+    "training_availability",
+    "health",
+    "nutrition"
+  ],
+  "properties": {
+    "user": {
+      "type": "object"
+    },
+    "primary_goal": {
+      "type": "string"
+    },
+    "secondary_goals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "training_availability": {
+      "type": "object"
+    },
+    "health": {
+      "type": "object"
+    },
+    "nutrition": {
+      "type": "object"
+    },
+    "tracking": {
+      "type": "object"
+    }
+  }
+}

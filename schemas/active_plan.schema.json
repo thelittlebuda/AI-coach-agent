@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ActivePlan",
+  "type": "object",
+  "required": [
+    "plan_id",
+    "start_date",
+    "sessions"
+  ],
+  "properties": {
+    "plan_id": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "string"
+    },
+    "sessions": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

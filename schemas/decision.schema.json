@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Decision",
+  "type": "object",
+  "required": [
+    "date",
+    "decision_type",
+    "input_summary",
+    "change",
+    "reason",
+    "confidence"
+  ],
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "decision_type": {
+      "type": "string"
+    },
+    "input_summary": {
+      "type": "string"
+    },
+    "change": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ]
+    },
+    "next_review_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "rollback_condition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NutritionDay",
+  "type": "object",
+  "required": [
+    "date"
+  ],
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "kcal": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "protein_g": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "fiber_g": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "alcohol_units": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "confidence": {
+      "enum": [
+        "high",
+        "medium",
+        "low",
+        "unknown",
+        null
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
